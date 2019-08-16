@@ -6,13 +6,14 @@ import ContentContainer from "./components/content/ContentContainer";
 
 import store from "./store/store";
 
+
 export default class App extends React.Component {
 
     render(){
         return(
             <Provider store={store}>
                 <BrowserRouter>
-                    <ContentContainer/>
+                    <ContentContainer test="123"/>
                 </BrowserRouter>
             </Provider>
         )

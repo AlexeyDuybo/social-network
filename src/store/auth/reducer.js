@@ -6,10 +6,11 @@ const initialState = {
 
 const userIdSelector = state => state.auth.userId;
 
-const getUserId = createSelector(userIdSelector, item => item);
+const getUserId = createSelector(userIdSelector, item => item );
+
+
 
 export default ( state = initialState , action ) => {
-
     switch(action.type){
         default:
             return state;

@@ -362,5 +362,16 @@ textarea {
 body {
     font-family: sans-serif;
 }
+* {
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+}
 ///////////////////////////////////////////////////////////////////////
 

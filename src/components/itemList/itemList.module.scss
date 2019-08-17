@@ -1,0 +1,9 @@
+.itemList {
+    padding: 15px;
+}
+.itemListElement {
+    margin-bottom: 10px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+}

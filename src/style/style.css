@@ -362,4 +362,17 @@ textarea {
 body {
   font-family: sans-serif;
 }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+}
 /*# sourceMappingURL=style.css.map */

@@ -2,8 +2,8 @@ import React from "react";
 import { Route } from "react-router-dom";
 
 import HeaderContainer from "../header/Header";
-import MenuContainer from "../menu/Menu";
-import FriendsListContainer from "../friendsList/FriendsList";
+import MenuContainer from "../menu/MenuContainer";
+import FriendsListContainer from "../friendsList/FriendsListContainer";
 
 import s from "./content.module.css";
 

@@ -1,0 +1,12 @@
+.itemList {
+  padding: 15px;
+}
+
+.itemListElement {
+  margin-bottom: 10px;
+}
+
+.itemListElement:last-child {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=itemList.module.css.map */
